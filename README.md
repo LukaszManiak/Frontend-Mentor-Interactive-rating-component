@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Mejniak/Frontend-Mentor---Advice-generator-app)
-- Live Site URL: [Netlify](https://advicegeneratorapp-lukas.netlify.app/)
+- Solution URL: [GitHub](https://github.com/Mejniak/Frontend-Mentor---Interactive-rating-component)
+- Live Site URL: [Netlify](https://ratingcomponent-lukas.netlify.app/)
 
 ### Built with
 
