@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="first-box">
+      <img class="star-icon" src="images/icon-star.svg" alt="" />
+      <h2>How did we do?</h2>
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+
+      <ul class="rating-list">
+        <span class="rating" data-rate="1">1</span>
+        <span class="rating" data-rate="2">2</span>
+        <span class="rating" data-rate="3">3</span>
+        <span class="rating" data-rate="4">4</span>
+        <span class="rating" data-rate="5">5</span>
+      </ul>
+      <button class="submit-btn">SUBMIT</button>
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <div class="second-box">
+      <img class="thank-img" src="images/illustration-thank-you.svg" alt="" />
+      <p class="final-rating"></p>
+
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/Mejniak" target="_blank"
+        >Łukasz Maniak</a
+      >.
+    </div>
+  </body>
+</html>
